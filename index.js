@@ -1,6 +1,6 @@
 //1
-function countFromOne(){
-for (let i= 1;i <= 15;i ++) 
+function countFromOne(num){
+for (let i= 1;i <= num;i ++) 
 console.log(i)
 }
 
@@ -15,10 +15,12 @@ function countEveryOdd(int){
 
 
 //3
-function isNegative(){
-  
+function isNegative(number){
+  if(number >= 0){
+  return false
+  }return true
 }
-
+console.log(isNegative(-2))
 //4
 function betweenFiveAndTwenty(){
   
@@ -38,6 +40,6 @@ function countMultiplesOfFive(int){
 
 
 
-//countFromOne()
+//countFromOne(50)
 //countEveryOdd(10)
 //countMultiplesOfFive([1,2,3,4,5,6,7,8,9,10])
